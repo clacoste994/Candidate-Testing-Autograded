@@ -49,7 +49,6 @@ for (i = 0; i < questions.length; i++) {
     candidateAnswers[4] = testingAnswers;
   }
 }
-console.log(candidateAnswers);
 
 }
 
@@ -62,12 +61,11 @@ function gradeQuiz(candidateAnswers) {
   console.log("Incorrect...");
 }*/
 
-console.log(candidateAnswers);
+
 n = 0;
 for (i = 0; i < correctAnswers.length; i++) {
   if (candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()) {
  n++;
- console.log('Loop Iteration ' + i);
   } 
 }
 
