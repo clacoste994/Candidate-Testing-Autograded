@@ -21,7 +21,7 @@ let v = 'Passed';
 function askForName() {
   // TODO 1.1b: Ask for candidate's name //
 
-//let candidateName = input.question("Your name, candidate ");
+candidateName = input.question("Candidate name: ");
 //console.log(candidateName);
 
 
@@ -86,7 +86,7 @@ for (i = 0; i < correctAnswers.length; i++) {
 function runProgram() {
   askForName();
   // TODO 1.1c: Greet candidate using their name //
-   //console.log("Welcome, candidate " +candidateName);
+  console.log(`Welcome! Candidate ${candidateName}`);
   askQuestion();
   gradeQuiz(this.candidateAnswers);
 }
