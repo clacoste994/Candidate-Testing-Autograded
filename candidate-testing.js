@@ -18,6 +18,7 @@ let testingAnswers = '';
 let n = 0;
 let v = 'Passed';
 
+
 function askForName() {
   // TODO 1.1b: Ask for candidate's name //
 
