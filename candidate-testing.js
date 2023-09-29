@@ -36,18 +36,28 @@ for (i = 0; i < questions.length; i++) {
   testingAnswers = input.question(questions[i]);
   if (i === 0) {
     candidateAnswers[0] = testingAnswers;
+    console.log(`Candidate Answer: ${testingAnswers}
+Correct Answer: ${correctAnswers[0]}`);
 }
   if (i === 1) {
     candidateAnswers[1] = testingAnswers;
+    console.log(`Candidate Answer: ${testingAnswers}
+Correct Answer: ${correctAnswers[1]}`);
   }
   if (i === 2) {
     candidateAnswers[2] = testingAnswers;
+    console.log(`Candidate Answer: ${testingAnswers}
+Correct Answer: ${correctAnswers[2]}`);
   }
   if (i === 3) {
     candidateAnswers[3] = testingAnswers;
+    console.log(`Candidate Answer: ${testingAnswers}
+Correct Answer: ${correctAnswers[3]}`);
   }
   if (i === 4) {
     candidateAnswers[4] = testingAnswers;
+    console.log(`Candidate Answer: ${testingAnswers}
+Correct Answer: ${correctAnswers[4]}`);
   }
 }
 
